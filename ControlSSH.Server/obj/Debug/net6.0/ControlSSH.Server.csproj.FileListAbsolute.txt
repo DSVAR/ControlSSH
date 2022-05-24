@@ -50,3 +50,4 @@ D:\пробы\Сервак\ControlSSH\ControlSSH.Server\bin\Debug\net6.0\Renci.S
 D:\пробы\Сервак\ControlSSH\ControlSSH.Server\bin\Debug\net6.0\SshNet.Security.Cryptography.dll
 D:\пробы\Сервак\ControlSSH\ControlSSH.Server\bin\Debug\net6.0\ControlSSH.Shared.dll
 D:\пробы\Сервак\ControlSSH\ControlSSH.Server\bin\Debug\net6.0\ControlSSH.Shared.pdb
+D:\пробы\Сервак\ControlSSH\ControlSSH.Server\bin\Debug\net6.0\Newtonsoft.Json.dll

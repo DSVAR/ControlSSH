@@ -25,6 +25,7 @@
       "Microsoft.Extensions.FileProviders.Abstractions.dll": "sha256-7PzvEcQvpK1c8tTX9VPI8AF+XrekqbAytNBQXJjvTvQ=",
       "Microsoft.Extensions.FileProviders.Physical.dll": "sha256-sXujvGMZDgBBZ9HqfcEq9XsM0pvwyhPt60NA9qLDzGI=",
       "Microsoft.Extensions.FileSystemGlobbing.dll": "sha256-viiXOG0fwhWobT0TQ1ZOJiZBdRvYRlWbDtjz+6d8sQI=",
+      "Microsoft.Extensions.Http.dll": "sha256-K5\/O91dt69IHKav69ftn+7DKPmnzkipTvwM4Sd4Zres=",
       "Microsoft.Extensions.Logging.dll": "sha256-GDZQCBtVHfrZZ6fL95lGoinLeUWLjQShLbfESwO7mrc=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-w+c+xfLh8QIAwluhugyPc8sPvAmmIC\/UTxnugT7Oido=",
       "Microsoft.Extensions.Options.dll": "sha256-eGESyy9mRu8RcCGajAu4E8nxSmeB5nxiZkFPVaZ5Vl0=",
@@ -32,6 +33,7 @@
       "Microsoft.JSInterop.dll": "sha256-jk2\/Vyub2GwMGkeIaCH7i0wYYpcirlDPEBjrjmB47Es=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-x6oiDUwhHmg2BfCJ43UGTPi2SSASRtEyFgka5LU8eRM=",
       "MudBlazor.dll": "sha256-N8OntIImtRTymxWAyRXmiqLo\/izwqpytlMhP6Z1Qfdw=",
+      "Newtonsoft.Json.dll": "sha256-E\/xmtOMsDS2ggEXVCY5TXfqnlIYSH0kr858NcpJCOO4=",
       "System.IO.Pipelines.dll": "sha256-OXr1SqT\/FRQmnxVa6n811yUyJraU4tzQs5skNCiDmiM=",
       "Microsoft.CSharp.dll": "sha256-3e+4x4IkiKdqz1QQU3q+mMbt7E75QRKVErtzQS\/H59M=",
       "Microsoft.VisualBasic.Core.dll": "sha256-nQnzzad55mvxYjgGOVHwVLsICUf8+AfrBKNGzOP6kfc=",
@@ -199,13 +201,15 @@
       "mscorlib.dll": "sha256-c1dVVfosFaf5aiS3brr2amBi1Ue0kg6mqECzmCbGyfA=",
       "netstandard.dll": "sha256-+9Yr\/gSP3tCZAMbOdAcGhHGuMcyg\/AaxVKtt3tGsvao=",
       "System.Private.CoreLib.dll": "sha256-SnxOe5QK250duVAQOw0iWr1sODhUuVEUykExQyQ\/WSk=",
-      "ControlSSH.Client.dll": "sha256-am\/+Hu66SKMNx4zCsIMRJHXapKPyFcsJ37gHBj2KDkQ="
+      "ControlSSH.Shared.dll": "sha256-rYc7JBn0docuH7W3UP+n95hNdyCh2OpVzW8g87phrDU=",
+      "ControlSSH.Client.dll": "sha256-BL+\/mm83ZR3yi5YscsAJxwS3C2d4oMWW1gCKA+75aRs="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ControlSSH.Client.pdb": "sha256-6OZYxWd+hND0TLR4Wo+ofdJLzysJpmHeWRkpQ8UW9\/0="
+      "ControlSSH.Shared.pdb": "sha256-f0vT5Kn8OEpemtQiAPGpUkRRTfXibY8+8Njt9TSSs2E=",
+      "ControlSSH.Client.pdb": "sha256-W55psVFQp+x1Bqfgo292tQYMtnhzTCgdRaNe7hMJ+3w="
     },
     "runtime": {
       "dotnet.6.0.2.s4r4vdwqlf.js": "sha256-wbTVn69TU0+WI83iB+kky8tf\/BjZdYJeM0rUP96ur\/c=",

@@ -25,7 +25,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Shared\\ControlSSH.Shared.csproj": {
+                "projectPath": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Shared\\ControlSSH.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -51,9 +55,17 @@
               "target": "Package",
               "version": "[6.0.2, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "MudBlazor": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2-beta1, )"
             }
           },
           "imports": [

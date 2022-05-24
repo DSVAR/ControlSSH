@@ -1,4 +1,8 @@
 ﻿@page "/"
+@using ControlSSH.Client.Services
+@using ControlSSH.Client.Components.FullComponent
+@using ControlSSH.Shared
+@using ControlSSH.Shared.Models
 
 @if (!Save)
 {
@@ -12,9 +16,13 @@
             </MudContainer>
 
             <MudContainer>
-                <MudTextField @bind-Value="Hostname" Label="HostName1" Variant="Variant.Outlined"></MudTextField >
+                <MudTextField @bind-Value="Username" Label="Username" Variant="Variant.Outlined"></MudTextField >
             </MudContainer>
 
+            
+            <MudContainer>
+                <MudTextField @bind-Value="Hostname" Label="Username" Variant="Variant.Outlined"></MudTextField >
+            </MudContainer>
         </MudCardContent>
   <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Saving">сохранить</MudButton>
     </MudCard>
@@ -25,29 +33,36 @@ else
         <MudCardContent Class="d-flex">
             <MudGrid >
                 <MudItem xs="1" >
-                     <MudText>IP:@Ip</MudText>
+                    <MudText>IP:@Ip</MudText>
                 </MudItem>
                 <MudItem xs="1" >
                     
-                <MudText><MudIcon Icon="@Icons.Filled.Computer"></MudIcon> @Hostname</MudText>
+                    <MudText><MudIcon Icon="@Icons.Filled.Computer"></MudIcon> @Hostname</MudText>
                 </MudItem>
             </MudGrid>
       
         </MudCardContent>
         <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Exit">выйти из сессии</MudButton>
     </MudCard>
+    
+    <SshFolders Ip="@Ip" Username="@Username" Password="@Password"></SshFolders>
 }
 
 @code {
     public bool Save;
+   
+    public string? Hostname { get; set; }
     public string? Ip { get; set; }
     public string? Password { get; set; }
-    public string? Hostname { get; set; }
+    public string? Username { get; set; }
 
-
-    void Saving()
+    [Inject] HttpService _http { get; set; }
+    
+    async Task Saving()
     {
-        Save=true; 
+        if(await  _http.Check(Ip,Username,Password)=="successful"){
+        Save=true;
+        }
     } 
     void Exit()
     {

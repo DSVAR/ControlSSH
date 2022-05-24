@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TgeIcK6Uq5vw8pqTc4j8viGmvjblB5Z6H4dRxBJ+PvY=",
+  "Hash": "tuwbDnSX+Vi8l4FriagQFTwgnAiosRJAZRwdLJTEPpo=",
   "Source": "ControlSSH.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -134,6 +134,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net6.0\\ControlSSH.Client.pdb"
+    },
+    {
+      "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ControlSSH.Shared.dll",
+      "SourceId": "ControlSSH.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ControlSSH.Shared.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Shared\\bin\\Debug\\net6.0\\ControlSSH.Shared.dll"
+    },
+    {
+      "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ControlSSH.Shared.pdb",
+      "SourceId": "ControlSSH.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ControlSSH.Shared.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Shared\\bin\\Debug\\net6.0\\ControlSSH.Shared.pdb"
     },
     {
       "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.2.s4r4vdwqlf.js",
@@ -578,6 +612,23 @@
       "OriginalItemSpec": "C:\\Users\\Davar\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
+      "SourceId": "ControlSSH.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Davar\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\lib\\netstandard2.0\\Microsoft.Extensions.Http.dll"
+    },
+    {
       "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
       "SourceId": "ControlSSH.Client",
       "SourceType": "Computed",
@@ -797,6 +848,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Davar\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.2\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "SourceId": "ControlSSH.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Davar\\.nuget\\packages\\newtonsoft.json\\13.0.2-beta1\\lib\\net6.0\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.AppContext.dll",
@@ -3740,6 +3808,23 @@
       "OriginalItemSpec": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Security.dll"
     },
     {
+      "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\obj\\Debug\\net6.0\\build-gz\\21wB7CaU.gz",
+      "SourceId": "ControlSSH.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
+    },
+    {
       "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\obj\\Debug\\net6.0\\build-gz\\2AdNEos4.gz",
       "SourceId": "ControlSSH.Client",
       "SourceType": "Computed",
@@ -4758,6 +4843,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Transactions.Local.dll"
+    },
+    {
+      "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\obj\\Debug\\net6.0\\build-gz\\eXcV1jtc.gz",
+      "SourceId": "ControlSSH.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ControlSSH.Shared.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ControlSSH.Shared.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ControlSSH.Shared.pdb"
     },
     {
       "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\obj\\Debug\\net6.0\\build-gz\\Ez0OVho+.gz",
@@ -6647,6 +6749,23 @@
       "OriginalItemSpec": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Data.DataSetExtensions.dll"
     },
     {
+      "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\obj\\Debug\\net6.0\\build-gz\\xlLURIhr.gz",
+      "SourceId": "ControlSSH.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ControlSSH.Shared.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ControlSSH.Shared.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ControlSSH.Shared.dll"
+    },
+    {
       "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\obj\\Debug\\net6.0\\build-gz\\Xr1LTbHp.gz",
       "SourceId": "ControlSSH.Client",
       "SourceType": "Computed",
@@ -6832,6 +6951,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.dll"
+    },
+    {
+      "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\obj\\Debug\\net6.0\\build-gz\\zEU3KJe6.gz",
+      "SourceId": "ControlSSH.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\obj\\Debug\\net6.0\\build-gz\\ZiLJ708B.gz",

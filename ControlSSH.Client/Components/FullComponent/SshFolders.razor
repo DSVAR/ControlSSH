@@ -1,0 +1,15 @@
+<MudCard style="padding: 3em" Elevation="0" >
+    <MudCard Elevation="0">
+        @if (FoldersList != null)
+            {
+                <MudText>Path:@FoldersList.First().CurrentPath</MudText>
+                <MudIcon Icon="@Icons.Filled.DriveFolderUpload" Color="Color.Primary"></MudIcon>
+                @foreach (var item in FoldersList!)
+                {
+                    <MudItem><MudIcon Icon="@Icons.Filled.Folder" Color="Color.Success"/>@item.Name</MudItem>  
+                }
+            }
+        
+    </MudCard>
+    
+</MudCard>
