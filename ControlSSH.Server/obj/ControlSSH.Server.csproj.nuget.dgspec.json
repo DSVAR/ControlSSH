@@ -1,0 +1,214 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Server\\ControlSSH.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\ControlSSH.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\ControlSSH.Client.csproj",
+        "projectName": "ControlSSH.Client",
+        "projectPath": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\ControlSSH.Client.csproj",
+        "packagesPath": "C:\\Users\\Davar\\.nuget\\packages\\",
+        "outputPath": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Davar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.2, 6.0.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Server\\ControlSSH.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Server\\ControlSSH.Server.csproj",
+        "projectName": "ControlSSH.Server",
+        "projectPath": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Server\\ControlSSH.Server.csproj",
+        "packagesPath": "C:\\Users\\Davar\\.nuget\\packages\\",
+        "outputPath": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Davar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\ControlSSH.Client.csproj": {
+                "projectPath": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Client\\ControlSSH.Client.csproj"
+              },
+              "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Shared\\ControlSSH.Shared.csproj": {
+                "projectPath": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Shared\\ControlSSH.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2020.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Shared\\ControlSSH.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Shared\\ControlSSH.Shared.csproj",
+        "projectName": "ControlSSH.Shared",
+        "projectPath": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Shared\\ControlSSH.Shared.csproj",
+        "packagesPath": "C:\\Users\\Davar\\.nuget\\packages\\",
+        "outputPath": "D:\\пробы\\Сервак\\ControlSSH\\ControlSSH.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Davar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

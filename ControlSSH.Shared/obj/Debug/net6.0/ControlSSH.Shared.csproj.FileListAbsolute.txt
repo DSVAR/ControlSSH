@@ -1,0 +1,12 @@
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\bin\Debug\net6.0\ControlSSH.Shared.deps.json
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\bin\Debug\net6.0\ControlSSH.Shared.dll
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\bin\Debug\net6.0\ControlSSH.Shared.pdb
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\obj\Debug\net6.0\ControlSSH.Shared.csproj.AssemblyReference.cache
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\obj\Debug\net6.0\ControlSSH.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\obj\Debug\net6.0\ControlSSH.Shared.AssemblyInfoInputs.cache
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\obj\Debug\net6.0\ControlSSH.Shared.AssemblyInfo.cs
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\obj\Debug\net6.0\ControlSSH.Shared.csproj.CoreCompileInputs.cache
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\obj\Debug\net6.0\ControlSSH.Shared.dll
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\obj\Debug\net6.0\refint\ControlSSH.Shared.dll
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\obj\Debug\net6.0\ControlSSH.Shared.pdb
+D:\пробы\Сервак\ControlSSH\ControlSSH.Shared\obj\Debug\net6.0\ref\ControlSSH.Shared.dll

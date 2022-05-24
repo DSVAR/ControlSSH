@@ -1,0 +1,59 @@
+﻿@page "/"
+
+@if (!Save)
+{
+    <MudCard Class="pa-5">
+        <MudCardContent Class="d-flex">
+            <MudContainer>
+                <MudTextField @bind-Value="Ip" Label="IP" Variant="Variant.Outlined"></MudTextField >
+            </MudContainer>
+            <MudContainer>
+                <MudTextField @bind-Value="Password" InputType="InputType.Password" Label="Password" Variant="Variant.Outlined"></MudTextField >
+            </MudContainer>
+
+            <MudContainer>
+                <MudTextField @bind-Value="Hostname" Label="HostName1" Variant="Variant.Outlined"></MudTextField >
+            </MudContainer>
+
+        </MudCardContent>
+  <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Saving">сохранить</MudButton>
+    </MudCard>
+}
+else
+{
+    <MudCard Class="pa-5">
+        <MudCardContent Class="d-flex">
+            <MudGrid >
+                <MudItem xs="1" >
+                     <MudText>IP:@Ip</MudText>
+                </MudItem>
+                <MudItem xs="1" >
+                    
+                <MudText><MudIcon Icon="@Icons.Filled.Computer"></MudIcon> @Hostname</MudText>
+                </MudItem>
+            </MudGrid>
+      
+        </MudCardContent>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Exit">выйти из сессии</MudButton>
+    </MudCard>
+}
+
+@code {
+    public bool Save;
+    public string? Ip { get; set; }
+    public string? Password { get; set; }
+    public string? Hostname { get; set; }
+
+
+    void Saving()
+    {
+        Save=true; 
+    } 
+    void Exit()
+    {
+        Save=false; 
+    }
+    
+
+}
+
