@@ -1,6 +1,7 @@
 using ControlSSH.Client.Services;
 using ControlSSH.Shared.Models;
 using Microsoft.AspNetCore.Components;
+using MudBlazor;
 
 namespace ControlSSH.Client.Components.FullComponent;
 
@@ -20,7 +21,17 @@ public partial class SshFolders
   protected override async Task OnInitializedAsync()
   {
     FoldersList = await Http?.GetFolder(Ip!,Username!,Password!)!;
-    var we = 2;
     StateHasChanged();
   }
+
+  async Task BackFolder()
+  {
+    FoldersList=await Http?.BackFolder(Ip!,Username!,Password!,$"{FoldersList!.First().CurrentPath}")!;
+    StateHasChanged();
+  }
+  async Task InFolder(object listItem)
+  {
+    FoldersList=await Http?.GetFolder(Ip!,Username!,Password!,false,$"{FoldersList!.First().CurrentPath}/{listItem}")!;
+    StateHasChanged();
+  } 
 }

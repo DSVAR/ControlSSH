@@ -202,14 +202,14 @@
       "netstandard.dll": "sha256-+9Yr\/gSP3tCZAMbOdAcGhHGuMcyg\/AaxVKtt3tGsvao=",
       "System.Private.CoreLib.dll": "sha256-SnxOe5QK250duVAQOw0iWr1sODhUuVEUykExQyQ\/WSk=",
       "ControlSSH.Shared.dll": "sha256-rYc7JBn0docuH7W3UP+n95hNdyCh2OpVzW8g87phrDU=",
-      "ControlSSH.Client.dll": "sha256-BL+\/mm83ZR3yi5YscsAJxwS3C2d4oMWW1gCKA+75aRs="
+      "ControlSSH.Client.dll": "sha256-MDG3bQ1vEYNeBA2LiEsLpRGcEGommdb32ob1xTJuLZE="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "ControlSSH.Shared.pdb": "sha256-f0vT5Kn8OEpemtQiAPGpUkRRTfXibY8+8Njt9TSSs2E=",
-      "ControlSSH.Client.pdb": "sha256-W55psVFQp+x1Bqfgo292tQYMtnhzTCgdRaNe7hMJ+3w="
+      "ControlSSH.Client.pdb": "sha256-DkKLn3zoZ03bqo56wx5AotFxkcAz6Q0UHATlf06Xd7o="
     },
     "runtime": {
       "dotnet.6.0.2.s4r4vdwqlf.js": "sha256-wbTVn69TU0+WI83iB+kky8tf\/BjZdYJeM0rUP96ur\/c=",

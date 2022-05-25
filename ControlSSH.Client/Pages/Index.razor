@@ -50,17 +50,17 @@ else
 
 @code {
     public bool Save;
-   
-    public string? Hostname { get; set; }
-    public string? Ip { get; set; }
-    public string? Password { get; set; }
-    public string? Username { get; set; }
 
-    [Inject] HttpService _http { get; set; }
+    public string? Hostname { get; set; } = "hostname";
+    public string? Ip { get; set; } = "192.168.0.220";
+    public string? Password { get; set; } = "admin";
+    public string? Username { get; set; } = "admin";
+
+    [Inject] HttpService? Http { get; set; }
     
     async Task Saving()
     {
-        if(await  _http.Check(Ip,Username,Password)=="successful"){
+        if(await  Http!.Check(Ip!,Username!,Password!)=="successful"){
         Save=true;
         }
     } 

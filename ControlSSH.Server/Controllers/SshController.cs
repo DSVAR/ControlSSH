@@ -37,9 +37,11 @@ namespace ControlSSH.Server.Controllers;
         
         [HttpGet]
         [Route("GetFolders")]
-        public IActionResult GetFolders(string password,string username,string ip)
+        public IActionResult GetFolders(string password,string username,string ip,bool isBack,string? path=null)
         {
             var command = "ls";
+            var commandPwd = "";
+           
             var listOfFolders = new List<SshFolder>();
             
             using (var client = new SshClient(ip, username, password))
@@ -47,7 +49,11 @@ namespace ControlSSH.Server.Controllers;
                 try
                 {
                     client.Connect();
-                    var commandClient=client.RunCommand("pwd");
+               
+                    command = (string.IsNullOrEmpty(path)) ? "ls" : $"cd {path}; ls";
+                    commandPwd = (string.IsNullOrEmpty(path)) ? "pwd" : $"cd {path}; pwd";
+                
+                    var commandClient=client.RunCommand(commandPwd);
                     var answer =client.RunCommand(command).Result;
                     SshFolder item = new SshFolder();
                     for (int i = 0; i < answer.Length; i++)
@@ -78,26 +84,45 @@ namespace ControlSSH.Server.Controllers;
             }
         }
 
-
-        public string BackFolder(ClientSSH ssh)
+        [HttpGet]
+        [Route("BackFolder")]
+        public IActionResult BackFolder(string password,string username,string ip,string path)
         {
-            using (var client = new SshClient("192.168.0.220", "admin", "admin"))
+            var listOfFolders = new List<SshFolder>();
+            using (var client = new SshClient(ip, username, password))
             {
                 try
                 {
                     client.Connect();
                     
-                    var commandClient=client.RunCommand("pwd");
-                    var answer =client.RunCommand("cd ..").Result;
+                    var commandClient=client.RunCommand($"cd {path};cd ..;pwd");
+                    var answer =client.RunCommand($"cd {path};cd ..; ls").Result;
                    
+                    SshFolder item = new SshFolder();
+                    for (int i = 0; i < answer.Length; i++)
+                    {
+                        if (answer[i].ToString() == "\n")
+                        {
+                            listOfFolders.Add(item);
+                            item = new SshFolder();
+                            
+                        }
+                        else
+                        {
+                            item.Name += answer[i];
+                            item.CurrentPath = commandClient.Result;
+                        }
+                        
+
+                    }
                     client.Disconnect();
-                    return $"{answer.ToString()}";
+                    return Ok(listOfFolders);
                 }
                 catch(Exception e)
                 {
                     client.Disconnect();
                   
-                    return $"{e.Message}";
+                    return BadRequest( e.Message);
                 }
             }
         }
